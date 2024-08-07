@@ -73,6 +73,21 @@
         .content p {
             color: #666;
         }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .gallery img {
+            max-width: 30%;
+            height: auto;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+        }
         footer {
             padding: 20px;
             margin-top: 20px;
@@ -93,25 +108,33 @@
                     <li><a href="#">主页</a></li>
                     <li><a href="#">关于我们</a></li>
                     <li><a href="#">联系</a></li>
-                    <li><a href="#">邮箱</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <section class="showcase">
         <div class="container">
-            <h1>欢迎来到强大的公墓信息平台</h1>
+            <h1>欢迎来到公墓信息平台</h1>
             <p>在这里你可以找到所有关于公墓的信息</p>
         </div>
     </section>
     <section class="content container">
         <h2>公墓概述</h2>
         <p>公墓是一个供人们安葬已故亲人的地方。公墓一般分为不同的区域，可以根据需求选择合适的安葬位置。现代公墓还提供一系列的服务，包括墓地维护、祭扫服务等。</p>
+        
+        <h2>公墓图片</h2>
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/1705409/pexels-photo-1705409.jpeg" alt="公墓图片1">
+            <img src="https://images.pexels.com/photos/415467/pexels-photo-415467.jpeg" alt="公墓图片2">
+            <img src="https://images.pexels.com/photos/1161626/pexels-photo-1161626.jpeg" alt="公墓图片3">
+            <img src="https://images.unsplash.com/photo-1475450457778-8a2c62a0c8d0" alt="公墓图片4">
+            <img src="https://images.unsplash.com/photo-1498346501207-41f8a217d5e1" alt="公墓图片5">
+        </div>
+
         <h2>常见问题</h2>
         <p>1. 如何选择合适的墓地？</p>
         <p>2. 公墓的收费标准是什么？</p>
         <p>3. 公墓提供哪些服务？</p>
-         <p>4. 公墓提还提供哪些超值服务？</p>
     </section>
     <footer>
         <p>版权所有 &copy; 2024 公墓信息平台</p>
